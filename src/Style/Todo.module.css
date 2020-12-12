@@ -1,0 +1,10 @@
+.addDiv {
+  border: 1px solid red;
+  padding: 10px;
+}
+
+.inputAdd {
+  width: 50%;
+  outline: none;
+  border: 1px solid gray;
+}
