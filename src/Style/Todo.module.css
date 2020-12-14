@@ -1,13 +1,20 @@
-.mainDiv {
-  width: 60%;
-  margin: 0px auto;
+body {
+  background-image: url(../background.jpg);
 }
+.mainDiv {
+  width: 30%;
+  margin: 0px auto;
+  border-radius: 18px;
+  background: #feffcc;
+  box-shadow: 5px 5px 6px #c6c79f, -5px -5px 6px #fffff9;
+}
+
 .addDiv {
   padding: 10px;
 }
 
 .inputAdd {
-  width: 50%;
+  width: 100%;
   outline: none;
   border: 1px solid gray;
 }
@@ -17,7 +24,7 @@
   height: 100px;
 }
 .commonColor {
-  color: #ffb300;
+  color: #825911;
 }
 
 .buttonBorder {

@@ -27,10 +27,12 @@ export default ( state = initState, action ) => {
             }
         case actionConstant.RESET_TASK:
             deleteData('todoArray')
+            deleteData('completedArray')
             deleteData('status' )
             return{
                 ...state,
                 todoArray : [],
+                completedArray : []
             }
         default :
             return state
