@@ -1,5 +1,9 @@
 const TODO_ADD = "TODO_ADD"
+const TODO_COMPLETED_TASK = "TODO_COMPLETED_TASK " 
+const RESET_TASK = "RESET_TASK"
 
 export default {
-    TODO_ADD
+    TODO_ADD,
+    TODO_COMPLETED_TASK,
+    RESET_TASK
 }

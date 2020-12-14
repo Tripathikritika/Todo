@@ -1,3 +1,7 @@
+.mainDiv {
+  width: 60%;
+  margin: 0px auto;
+}
 .addDiv {
   padding: 10px;
 }
@@ -6,4 +10,16 @@
   width: 50%;
   outline: none;
   border: 1px solid gray;
+}
+
+.card {
+  width: 100px;
+  height: 100px;
+}
+.commonColor {
+  color: #ffb300;
+}
+
+.buttonBorder {
+  border: 2px solid #ff9800;
 }

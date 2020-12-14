@@ -10,3 +10,14 @@ export const addTask = ( payload ) => ({
     }
 })
 
+export const addCompletedTask = (payload) => ({
+    type : actionConstant.TODO_COMPLETED_TASK,
+    payload : {
+        id : uuidv4(),
+        title : payload,
+    }
+})
+
+export const refreshTask = (payload) => ({
+    type : actionConstant.RESET_TASK,
+})
