@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Tripathikritika/Todo/precache-manifest.15716caa4a8dcc37872d52e2f5c15e89.js"
+  "/Todo/precache-manifest.a356e6516d5d4f9bb2f3bbd412ffe946.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Tripathikritika/Todo/index.html", {
+workbox.routing.registerNavigationRoute("/Todo/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
