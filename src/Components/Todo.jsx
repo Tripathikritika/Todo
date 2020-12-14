@@ -39,8 +39,6 @@ export default function Todo() {
         setTaskInput("")
     }
 
-    // console.log(hashTag)
-
     return (
         <div className="container">
             <div className="row">

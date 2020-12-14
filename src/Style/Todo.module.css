@@ -8,7 +8,15 @@ body {
   background: #feffcc;
   box-shadow: 5px 5px 6px #c6c79f, -5px -5px 6px #fffff9;
 }
-
+@media screen and (max-width: 600px) {
+  .mainDiv {
+    width: 100%;
+    margin: 0px auto;
+    border-radius: 18px;
+    background: #feffcc;
+    box-shadow: 5px 5px 6px #c6c79f, -5px -5px 6px #fffff9;
+  }
+}
 .addDiv {
   padding: 10px;
 }
